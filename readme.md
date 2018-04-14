@@ -1,6 +1,6 @@
 # redis-messaging-manager-example
 
-## An example for using [redis-mesagging-manager](https://github.com/dotansimha/graphql-code-generator) library.
+## An example for using [redis-mesagging-manager](https://github.com/tomyitav/redis-messaging-manager) library.
 
 ## Installation
 
