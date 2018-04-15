@@ -7,7 +7,7 @@
 Clone the repository and run `npm install`
 
 ```
-git clone https://github.com/tomyitav/redis-messaging-manager.git
+git clone https://github.com/tomyitav/redis-messaging-manager-example.git
 npm install
 tsc
 ```
