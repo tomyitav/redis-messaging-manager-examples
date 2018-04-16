@@ -12,6 +12,11 @@ npm install
 tsc
 ```
 
+### Basic setup
+
+Make sure a redis broker instance is up on localhost. You can configure
+a different ip address in messenger.ts file
+
 ### Running receiver
 
 ```bash
