@@ -29,4 +29,4 @@ node dist\receiver.js
 node dist\publisher.js
 ```
 
-Messages from the publisher will appear in the receiver code.
+Messages from the publisher will appear in the receiver console.
