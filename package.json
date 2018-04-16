@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "redis-messaging-manager": "^1.0.3"
+    "redis-messaging-manager": "^1.2.0"
   },
   "devDependencies": {
     "@types/bluebird": "^3.5.20",
