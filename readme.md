@@ -20,13 +20,24 @@ a different ip address in messenger.ts file
 ### Running receiver
 
 ```bash
-node dist\receiver.js
+node dist\basic-pubsub\receiver.js
 ```
 
 ### Running publisher
 
 ```bash
-node dist\publisher.js
+node dist\basic-pubsub\publisher.js
 ```
 
 Messages from the publisher will appear in the receiver console.
+
+### Subscribe to server events
+
+```bash
+node dist\events\event-listener.js
+```
+
+By using the ```getServerEventStream``` method, we get an Observable that
+acts as a stream of events from the Redis server instance.
+
+
