@@ -1,4 +1,4 @@
-import messenger from "./messenger";
+import messenger from "../messenger";
 
 console.log('consuming messages..!');
 messenger.consume('redis')

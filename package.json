@@ -1,5 +1,5 @@
 {
-  "name": "@risingstack/rest-api-typescript",
+  "name": "redis-messaging-manager-examples",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "redis-messaging-manager": "^1.2.0"
+    "redis-messaging-manager": "^1.3.0"
   },
   "devDependencies": {
     "@types/bluebird": "^3.5.20",
