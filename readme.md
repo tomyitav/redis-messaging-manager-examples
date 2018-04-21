@@ -30,6 +30,9 @@ a different ip address in messenger.ts file
 
 ### receiver demo
 
+The following code snippet shows how to subscribe to a topic, (or channel)
+named "redis"
+
 ```js
   import messenger from "../messenger";
 
@@ -47,6 +50,8 @@ node dist\basic-pubsub\receiver.js
 ```
 
 ### Running publisher
+
+This is how we publish a message on the channel "redis":
 
 ```js
 import messenger from '../messenger';
