@@ -1,4 +1,4 @@
-# redis-messaging-manager-example
+# redis-messaging-manager-examples
 
 ## Examples for using [redis-mesagging-manager](https://github.com/tomyitav/redis-messaging-manager) library.
 
