@@ -65,7 +65,35 @@ Run command:
 node dist\basic-pubsub\publisher.js
 ```
 
-Messages from the publisher will appear in the receiver console.
+And the message will now be published to the receiver.
+
+### Publishing a bulk of messages
+
+Publishing multiple messages on a channel is supported in ```redis-messaging-manager```
+by using ```publishBulk```. This is implemented by using Redis Pipeline
+functionality to boost performance.
+
+```js
+import messenger from '../messenger';
+
+let bulkOfMessages: Array<string> = [
+    "hello redis 1",
+    "hello redis 2",
+    "hello redis 3",
+    "hello redis 4",
+    "hello redis 5"
+]
+
+messenger.publishBulk('redis', bulkOfMessages);
+```
+
+Run command:
+
+```bash
+node dist\basic-pubsub\publish-bulk.js
+```
+
+Now all 5 Messages from the publisher will appear in the receiver console.
 
 ### Subscribe to server events
 
