@@ -4,7 +4,7 @@
 
 ## Installation
 
-Clone the repository and run `npm install`
+Clone the repository, and run `npm install`
 
 ```
 git clone https://github.com/tomyitav/redis-messaging-manager-examples.git
